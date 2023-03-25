@@ -1,6 +1,6 @@
 /*
 Author       : theme_ocean 
-Template Name: Assan - Digital Marketing Agency HTML Template
+Template Name: ShunnoIT
 Version      : 1.0
 */
 (function($) {

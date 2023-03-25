@@ -1,6 +1,6 @@
 /*
 Author       : theme_ocean 
-Template Name: Assan - Digital Marketing Agency HTML Template
+Template Name: ShunnoIT
 Version      : 1.0
 */
 /*=============================================================
@@ -2235,7 +2235,7 @@ h4.section-title-white {
 	border-bottom: 1px solid #ddd;
 	background: -webkit-linear-gradient(left, rgb(236, 255, 252) 0%, rgb(253, 250, 239) 35%, rgb(251, 251, 251) 100%);
 	background: linear-gradient(90deg, rgb(236, 255, 252) 0%, rgb(253, 250, 239) 35%, rgb(251, 251, 251) 100%);
-	height: 550px;
+	max-height: 550px;
 }
 
 .section-top-title {
