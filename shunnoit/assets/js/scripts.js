@@ -1,6 +1,6 @@
 /*
 Author       : theme_ocean 
-Template Name: Assan - Digital Marketing Agency HTML Template
+Template Name: ShunnoIT
 Version      : 1.0
 */
 (function ($) {
@@ -93,7 +93,7 @@ document.getElementById("contactForm").addEventListener("submit", (e) => {
     message,
   };
 
-  fetch("http://localhost:8080/api/v1/contact/contactCreate", {
+  fetch("https://shop.hisabnikash.biz/api/v1/contact/contactCreate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(postBody),
