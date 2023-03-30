@@ -239,7 +239,7 @@
             (i = e("#cmessage").val()),
             e.ajax({
               type: "POST",
-              url: "../assets/php/contactform-process.php",
+              url: "./assets/php/contactform-process.php",
               data: "name=" + s + "&email=" + o + "&message=" + i,
               success: function (t) {
                 "success" == t
@@ -261,7 +261,7 @@
             (a = e("#demail").val()),
             e.ajax({
               type: "POST",
-              url: "../assets/php/downloadform-process.php",
+              url: "./assets/php/downloadform-process.php",
               data: "email=" + a,
               success: function (t) {
                 "success" == t
@@ -282,7 +282,7 @@
             (a = e("#sdemail").val()),
             e.ajax({
               type: "POST",
-              url: "../assets/php/downloadform-process.php",
+              url: "./assets/php/downloadform-process.php",
               data: "email=" + a,
               success: function (t) {
                 "success" == t
@@ -307,7 +307,7 @@
             (i = e("#gterms").val()),
             e.ajax({
               type: "POST",
-              url: "../assets/php/getquoteform-process.php",
+              url: "./assets/php/getquoteform-process.php",
               data:
                 "name=" +
                 a +
