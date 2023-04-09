@@ -598,17 +598,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
-                    <form id="contactForm" onsubmit="return submitUserForm();" data-toggle="validator"
+                    <form id="contactForm" onsubmit="submitUserForm(name,email,text);" data-toggle="validator"
                         data-focus="false">
-                        <div class="form-group"> <input type="text" class="form-control-input" id="cname" required>
+                        <div class="form-group"> <input type="text" name="name" class="form-control-input" id="cname" required>
                             <label class="label-control" for="cname">Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group"> <input type="email" class="form-control-input" id="cemail" required>
+                        <div class="form-group"> <input type="email" name="email" class="form-control-input" id="cemail" required>
                             <label class="label-control" for="cemail">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group"> <textarea class="form-control-textarea" id="cmessage"
+                        <div class="form-group"> <textarea class="form-control-textarea" name="text" id="cmessage"
                                 required></textarea> <label class="label-control" for="cmessage">Your message</label>
                             <div class="help-block with-errors"></div>
                         </div>

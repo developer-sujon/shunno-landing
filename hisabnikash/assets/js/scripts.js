@@ -342,7 +342,13 @@
 })(jQuery),
   new WOW().init();
 var error = document.getElementById("g-recaptcha-error");
-function submitUserForm() {
+function submitUserForm(name, email, text) {
+  const Sname = name.value;
+  const Semail = email.value;
+  const Stext = text.value;
+  // value received successfully
+  //console.log({ Sname, Semail, Stext });
+
   return (
     0 != grecaptcha.getResponse().length ||
     ((error.innerHTML =
